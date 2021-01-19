@@ -1,1 +1,1 @@
-# BlogTech portfolio project website. HTML, CSS grid, JavaScript.
+BlogTech portfolio project website incorporating HTML, CSS grid, JavaScript.
