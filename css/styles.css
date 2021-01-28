@@ -180,7 +180,7 @@ h6 {
 }
 .navbar-toggle {
   position: absolute;
-  top: 0.8em;
+  top: 0.6em;
   right: 1em;
   background-color: transparent;
   color: var(--light-color);
