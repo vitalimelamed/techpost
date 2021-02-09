@@ -297,7 +297,7 @@ h6 {
   outline: 0;
   border: 0;
 }
-.footer .footer-container input[type="submit"] {
+.footer .footer-container button[type="submit"] {
   width: 100%;
   cursor: pointer;
   background-color: var(--primary-color);
