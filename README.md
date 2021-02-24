@@ -1,1 +1,3 @@
-BlogTech portfolio project website incorporating CSS grid
+# Portfolio Project
+
+ Website incorporating CSS grid
