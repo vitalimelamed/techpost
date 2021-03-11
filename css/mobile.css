@@ -1,16 +1,3 @@
-/* .logo {
-  font-size: 20px;
-} */
-/* .navbar {
-  display: none;
-} */
-.showcase .showcase-content h1 {
-  font-size: 40px;
-}
-.showcase .showcase-content a {
-  font-size: 40px;
-  margin-top: 15rem;
-}
 .home-articles .articles-container {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -28,10 +15,6 @@
 .showcase .showcase-content h1 {
   font-size: 40px;
 }
-.showcase .showcase-content a {
-  font-size: 40px;
-  margin-top: 15rem;
-}
 .footer .footer-container > *:last-child {
     grid-column: 1;
   }
@@ -40,7 +23,6 @@
 }
 .page-container {
     grid-template-columns: 1fr;
-    text-align: center;
   }
 .page-container > *:first-child {
     grid-row: 1;
