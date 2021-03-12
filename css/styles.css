@@ -132,9 +132,6 @@ h6 {
   left: 1em;
   color: var(--light-color);
 }
-.navbar h1 span {
-  font-style: italic;
-}
 .navbar {
   position: fixed;
   background-color: var(--primary-color);
