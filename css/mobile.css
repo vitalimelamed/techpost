@@ -4,7 +4,7 @@
 .home-articles .articles-container > *:first-child,
 .home-articles .articles-container > *:last-child {
     grid-template-columns: 1fr;
-    grid-column: 1;
+    grid-column: 0;
 }
 @media (max-width: 600px) {
 .showcase .showcase-container,
@@ -18,9 +18,6 @@
 .footer .footer-container > *:last-child {
     grid-column: 1;
   }
-.footer .social-icon {
-  font-size: 16px;
-}
 .page-container {
     grid-template-columns: 1fr;
   }
