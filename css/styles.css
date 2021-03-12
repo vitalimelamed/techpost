@@ -247,8 +247,7 @@ h6 {
   color: var(--dark-color);
 }
 .footer .social-icon {
-  font-size: 20px;
-  margin: 0.5rem;
+  font-size: 30px;
   color: var(--primary-color);
   cursor: pointer;
 }
