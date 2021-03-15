@@ -18,7 +18,7 @@ html {
 body {
   font-family: "Open-Sans", sans-serif;
   line-height: 1.5;
-  background-color: var(--light-color);
+  /* background-color: var(--light-color); */
 }
 a {
   color: var(--dark-color);
@@ -83,7 +83,7 @@ h6 {
 }
 /* Card */
 .card {
-  background-color: #ffffff;
+  background-color: var(--light-color);
   padding: 1rem;
 }
 /* Padding */
@@ -238,7 +238,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   padding: 0.5rem;
 }
 /* Footer */
@@ -275,7 +275,7 @@ h6 {
   margin: 1em 0 0;
 }
 .footer .footer-container input {
-  background-color: #eeeeee;
+  background-color: var(--light-color);
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
