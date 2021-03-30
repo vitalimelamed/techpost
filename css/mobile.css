@@ -1,3 +1,35 @@
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navbar-list {
+  width: 100%;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 450ms cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  flex-direction: column;
+}
+.navbar-link {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.navbar-list.navbar-open {
+  max-height: 50vh;
+  opacity: 1;
+}
+.navbar-toggle {
+position: fixed;
+font-size: 25px;
+top: 18px;
+right: 20px;
+background-color: transparent;
+color: var(--light-color);
+border: none;
+outline: none;
+cursor: pointer;
+z-index: 3;
+}
 .home-articles .articles-container {
     grid-template-columns: repeat(2, 1fr);
 }
