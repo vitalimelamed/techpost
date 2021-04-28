@@ -10,7 +10,6 @@
   --dark-color: #333333;
   --max-width: 1100px;
 }
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +17,6 @@ html {
 body {
   font-family: "Open-Sans", sans-serif;
   line-height: 1.5;
-  /* background-color: var(--light-color); */
 }
 a {
   color: var(--dark-color);
@@ -135,43 +133,35 @@ h6 {
   justify-content: center;
   align-items: center;
   background-color: var(--primary-color);
-  color: var(--light-color);
   z-index: 2;
 }
 .navbar-brand {
-  font-size: 1.5rem;
-  margin-right: auto;
-  padding: 1rem;
-  text-transform: uppercase;
+  color: var(--light-color);
+  font-size: 24px;
+  margin: 1rem 2rem 1rem 1rem;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .navbar-list {
   display: flex;
-  margin: 0;
-  padding: 0;
-}
-.navbar-item {
-  list-style: none;
 }
 .navbar-link {
-  display: block;
-  text-decoration: none;
   color: var(--light-color);
   margin: 1rem;
   font-size: 14px;
-  text-transform: uppercase;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 /* Showcase */
 .showcase {
   background-color: var(--dark-color);
   color: var(--light-color);
-  margin-top: 2.7rem;
+  margin-top: 2.5rem;
   padding: 2rem;
   position: relative;
 }
 .showcase:before {
-  content: "";
+  content: '';
   background: url("../img/Laptop.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
@@ -196,9 +186,6 @@ h6 {
   transform: translate(-50%, -50%);
   font-size: 50px;
   text-align: center;
-}
-.showcase .showcase-content h1 span {
-  font-style: italic;
 }
 .home-articles .articles-container {
   display: grid;
@@ -266,19 +253,4 @@ h6 {
   border-color: var(--primary-color);
   outline: none;
   border: 1px solid;
-}
-/* Back to top button */
-.top {
-  display: none;
-  background-color: var(--primary-color);
-  color: var(--light-color);
-  font-size: 20px;
-  padding: 5px 10px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  cursor: pointer;
 }
