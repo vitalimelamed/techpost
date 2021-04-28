@@ -1,3 +1,3 @@
-# Portfolio Project
+# Portfolio project
 
  Website incorporating CSS grid
