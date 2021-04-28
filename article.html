@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TechPost</title>
+    <title>Techpost</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" >
-    <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/bff1c2ee20.js" crossorigin="anonymous"></script>
-    <!-- My CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" media="screen and (max-width: 786px)" href="css/mobile.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <button class="navbar-toggle">
-        <i class="fal fa-bars"></i>
-      </button>
+        <i class="bi bi-list navbar-toggle" aria-label="navbar toggle"></i>
       <nav class="navbar">
-        <div class="navbar-brand">TechPost</div>
+        <a href="/" class="navbar-brand">Techpost</a>
           <ul class="navbar-list">
             <li class="navbar-item"><a href="/" class="navbar-link">Home</a></li>
             <li class="navbar-item"><a href="/about.html" class="navbar-link">About</a></li>
@@ -35,9 +30,9 @@
           <!-- Article -->
           <article class="card">
             <img src="img/Drone-flying.jpg" alt="Drone flying" />
-            <h1 class="l-heading">Article Name</h1>
+            <h1 class="l-heading">Article name</h1>
             <div class="author">
-              <small><i class="fal fa-user"></i> Posted by <strong>John Doe</strong> | March 12, 2020</small>
+              <small><i class="bi bi-person"></i> Posted by <strong>John Doe</strong> | March 12, 2020</small>
               <div class="category category-item">Electronics</div>
             </div>
             <p>
@@ -59,19 +54,19 @@
             <h2>Categories</h2>
             <ul class="list">
               <li>
-                <a>Electronics <i class="fal fa-chevron-right"></i></a>
+                <a href="#">Electronics <i class="bi bi-chevron-right"></i></a>
               </li>
               <li>
-                <a>Technology <i class="fal fa-chevron-right"></i></a>
+                <a href="#">Technology <i class="bi bi-chevron-right"></i></a>
               </li>
             </ul>
           </aside>
           <!-- / Categories card -->
           <!-- Card -->
           <aside class="card">
-            <h2>Join Our Club</h2>
+            <h2>Join our club</h2>
             <p>Rort boogie board shazza relo apples outback chrissie brickie.</p>
-            <a class="btn btn-primary btn-block">Join Now</a>
+            <a href="#" class="btn btn-primary btn-block">Join now</a>
           </aside>
           <!-- / Card -->
           <!-- / Aside content -->
@@ -83,37 +78,37 @@
     <footer class="footer py-2">
       <div class="container footer-container">
         <div>
-          <h3>Website Links</h3>
+          <h3>Website links</h3>
           <ul class="list">
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
           </ul>
         </div>
         <div>
-          <h3>Email Newsletter</h3>
+          <h3>Newsletter sign up</h3>
           <p>Swagger milk bar full boar bludger she'll be right outback.</p>
           <form>
-            <label>Email</label
-            ><input type="email"/>
-            <button type="submit" class="btn" disabled>Sign Up</button>
+            <label for="email">Email</label
+            ><input type="email" id="email"/>
+            <button type="button" class="btn">Sign up</button>
           </form>
         </div>
         <div>
-          <h3>Join Our Club</h3>
+          <h3>Join our club</h3>
           <p>Rort boogie board shazza relo apples outback chrissie brickie.</p>
-          <a class="btn btn-primary">Join Now</a>
+          <a href="#" class="btn btn-primary">Join now</a>
         </div>
         <div class="social">
-            <h3>Social Media Links</h3>
-           <a><i class="social-icon fab fa-facebook"></i></a>
-           <a><i class="social-icon fab fa-twitter"></i></a>
-            <a><i class="social-icon fab fa-youtube"></i></a>
-            <a><i class="social-icon fab fa-linkedin"></i></a>
+            <h3>Social media links</h3>
+           <a href="#"><i class="social-icon bi bi-facebook"></i></a>
+           <a href="#"><i class="social-icon bi bi-twitter"></i></a>
+            <a href="#"><i class="social-icon bi bi-youtube"></i></a>
+            <a href="#"><i class="social-icon bi bi-linkedin"></i></a>
           </div>
         <div><p>&copy; 2020</p></div>
       </div>
     </footer>
     <!-- / Footer -->
-  <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
