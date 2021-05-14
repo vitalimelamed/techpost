@@ -6,8 +6,8 @@ const navbarLink = document.querySelectorAll('.navbar-brand, .navbar-link');
     navbarMenu.classList.toggle('open-menu');
 });
 
-  navbarLink.forEach( (navbarLink) =>  {
-    navbarLink.addEventListener('click', () => {
+  navbarLink.forEach( (link) =>  {
+    link.addEventListener('click', () => {
       navbarMenu.classList.remove('open-menu');
   });
 });
