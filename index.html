@@ -4,11 +4,8 @@
     <title>Techpost</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css" />
     <link
@@ -25,7 +22,7 @@
       <a href="#" class="navbar-brand">Techpost</a>
         <ul class="navbar-list">
           <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
-          <li class="navbar-item"><a href="/about.html" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="about.html" class="navbar-link">About</a></li>
         </ul>
     </nav>
       <div class="showcase">
@@ -35,6 +32,7 @@
               <h1>
                 Tech blog
               </h1>
+              <a href="#articles"><i class="bi bi-chevron-down"></i></a>
             </div>
           </div>
         </div>
@@ -42,79 +40,63 @@
     </header>
     <!-- / Header -->
     <!-- Articles section -->
-    <section class="home-articles py-2">
+    <section class="home-articles py-2" id="articles">
       <div class="container">
         <h2>Latest articles</h2>
         <div class="articles-container">
           <!-- Article 1 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Drone-flying-thumb.jpg" alt="Drone flying" />
-              <div>
-                <div class="category category-item">Electronics</div>
+                <div class="category category-item-primary">Electronics</div>
                 <h3>Article name</h3>
                 <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
-              </div>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 1 -->
           <!-- Article 2 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Logicboard-thumb.jpg" alt="Logicboard" />
-              <div>
-                <div class="category category-item">Technology</div>
+                <div class="category category-item-secondary">Technology</div>
                 <h3>Article name</h3>
                 <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
-              </div>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 2 -->
           <!-- Article 3 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Server-hardware-thumb.jpg" alt="Server hardware" />
-              <div>
-                <div class="category category-item">Electronics</div>
+                <div class="category category-item-primary">Electronics</div>
                 <h3>Article name</h3>
                 <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
-              </div>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 3 -->
           <!-- Article 4 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Laptop-on-table-thumb.jpg" alt="Laptop on table" />
-              <div>
-                <div class="category category-item">Technology</div>
+                <div class="category category-item-secondary">Technology</div>
                 <h3>Article name</h3>
                 <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
-              </div>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 4 -->
           <!-- Article 5 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Laptop-thumb.jpg" alt="Laptop" />
-              <div class="category category-item">Electronics</div>
+              <div class="category category-item-primary">Electronics</div>
               <h3>Article name</h3>
               <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 5 -->
           <!-- Article 6 -->
-          <a href="/article.html">
             <article class="card">
               <img src="img/Earth-from-space-thumb.jpg" alt="Earth from space" />
-              <div>
-                <div class="category category-item">Technology</div>
+                <div class="category category-item-secondary">Technology</div>
                 <h3>Article name</h3>
                 <p>Fisho stickybeak cleanskin sickie relo mokkies also</p>
-              </div>
+              <a href="article.html">View more</a>
             </article>
-          </a>
           <!-- / Article 6 -->
         </div>
       </div>
@@ -126,30 +108,34 @@
         <div>
           <h3>Website links</h3>
           <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="/about.html">About</a></li>
+            <li><a href="#!">Home</a></li>
+            <li><a href="#!">About</a></li>
+            <li><a href="#!">Privacy</a></li>
+            <li><a href="#!">Terms</a></li>
           </ul>
         </div>
         <div>
           <h3>Newsletter sign up</h3>
           <p>Swagger milk bar full boar bludger she'll be right outback.</p>
           <form>
+            <label for="name">Name</label
+              ><input type="text" id="name"/>
             <label for="email">Email</label
             ><input type="email" id="email"/>
-            <button type="button" class="btn">Sign up</button>
+            <button type="button">Sign up</button>
           </form>
         </div>
         <div>
           <h3>Join our club</h3>
           <p>Rort boogie board shazza relo apples outback chrissie brickie.</p>
-          <a href="#" class="btn btn-primary">Join now</a>
+          <a href="#!" class="btn btn-primary">Join now</a>
         </div>
-        <div class="social">
+        <div>
           <h3>Social media links</h3>
-          <a href="#"><i class="social-icon bi bi-facebook"></i></a>
-          <a href="#"><i class="social-icon bi bi-twitter"></i></a>
-          <a href="#"><i class="social-icon bi bi-youtube"></i></a>
-          <a href="#"><i class="social-icon bi bi-linkedin"></i></a>
+          <a href="#!"><i class="social-icon bi bi-facebook"></i></a>
+          <a href="#!"><i class="social-icon bi bi-twitter"></i></a>
+          <a href="#!"><i class="social-icon bi bi-youtube"></i></a>
+          <a href="#!"><i class="social-icon bi bi-linkedin"></i></a>
         </div>
         <div><p>&copy; 2020</p></div>
       </div>
