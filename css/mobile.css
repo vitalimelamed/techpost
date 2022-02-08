@@ -9,9 +9,6 @@
   .navbar-list {
     overflow: hidden;
     max-height: 0;
-    -moz-transition: max-height 250ms ease-in-out;
-    -webkit-transition: max-height 250ms ease-in-out;
-    transition: max-height 250ms ease-in-out;
     flex-direction: column;
 }
 .navbar-item {
@@ -29,7 +26,7 @@
   position: fixed;
   top: 0.8rem;
   left: 1rem;
-  color: var(--light-color);
+  color: var(--dark-color);
   font-size: 30px;
   height: 40px;
   cursor: pointer;
@@ -54,14 +51,5 @@
 }
 .footer .footer-container > *:last-child {
     grid-column: 1;
-  }
-.page-container {
-    grid-template-columns: 1fr;
-  }
-.page-container > *:first-child {
-    grid-row: 1;
-  }
-.l-heading {
-    font-size: 2rem;
   }
 }
